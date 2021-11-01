@@ -1,0 +1,84 @@
+.landingimage {
+  background-color: #ff5168;
+  height: 500px;
+}
+.logo {
+  height : 40px;
+  width: 120px;
+  margin-right: 75px;
+}
+.navbar{
+  z-index: 1;
+  position: fixed;
+  font-family: 'Roboto', sans-serif;
+}
+.intro{
+  font-family: 'Roboto', sans-serif;
+}
+.login{
+  background-color: #ff5168;
+  color: white;
+  margin-top: 2px;
+  font-weight: bold;
+}
+.login:hover{
+  color: white;
+  font-weight: bold;
+}
+.sign{
+  color: black;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.regi{
+  color: white;
+}
+
+.name{
+  font-size: 25px;
+  font-weight: bold;
+  position: relative;
+  left: 30px;
+  font-family: 'Roboto', sans-serif;
+}
+.image{
+  width: 400px;
+  display: block;
+  align-items: center;
+  margin: auto;
+  border-radius: 15px;
+  box-shadow: 0 0 0 0;
+}
+
+.s1{
+  background-color: #F2F7FB;
+}
+.s2{
+  background-color: #FFFAFA;
+}
+.imageteacher{
+  height: 400px;
+  width: 300px;
+  display: block;
+  align-items: center;
+  margin: auto;
+  border-radius: 15px;
+  box-shadow: 0 0 0 0;
+}
+.faculties{
+  background-color: 111111;
+}
+.jeebtn{
+  border-radius: 5px;
+  position: relative;
+  left: 85%;
+}
+.ttt{
+  font-weight: bold;
+  margin: 5px 15px 0 30px;
+  color: black;
+}
+.ninja{
+text-decoration: underline;
+color: red;
+}

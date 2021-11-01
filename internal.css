@@ -1,0 +1,97 @@
+/* The sidebar menu */
+.sidenav {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  background-color: white;
+  box-shadow: 0 0 0px 0;
+}
+.navbar{
+  text-align: center;
+}
+
+.sidenav ul {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  color: Black;
+  display: block;
+  font-weight: 400;
+  position: relative;
+  top: 70px;
+  left: 10px;
+}
+
+.sidenav h3{
+  color: black;
+}
+.sidenav ul li a{
+  color: grey;
+  font-family: 'Roboto', sans-serif;
+  font-size: 19px;
+}
+.sidenav ul li a:hover{
+  color: black;
+  font-weight: normal;
+  font-size: 19px;
+}
+.main {
+  margin-left: 160px;
+  padding: 0 10px;
+}
+
+.content{
+  position: absolute;
+  left: 260px;
+  font-family: 'Roboto';
+
+}
+.internalcourse{
+  font-weight: bold;
+  color: grey;
+  font-size: 12px;
+}
+.internalcourse:hover{
+  color: #ff5168;
+}
+.tal{
+  width: 1200px;
+  height: 600px;
+  padding:  2%;
+  overflow: auto;
+  background-color: #FCFFFE;
+}
+.coursetype{
+  display: inline;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.std{
+  margin-left: 1100px;;
+}
+.standard{
+  color: #ff5168;
+  background-color: white;
+  box-shadow: 0 0 4px 0 grey;
+}
+.boxsize{
+    padding-left: 10%;
+    padding-top: 2%;
+    font-family: 'Roboto', sans-serif;
+}
+/* scrollbar editing */
+::-webkit-scrollbar {
+    width: 0.25px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: white;
+}
+
+::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
